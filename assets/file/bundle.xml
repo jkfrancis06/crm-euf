@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <packages>
+        <SimGprsPackage>
+            <item>
+                <id>810319</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-16 09:56:40</created>
+                <state>activated</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2273</packageId>
+                <packageName>dns</packageName>
+                <packageNumber>1003</packageNumber>
+                <activated>2017-11-16 09:56:40</activated>
+                <subscriptionStart>2017-11-16 09:56:40</subscriptionStart>
+                <subscriptionEnd>2017-12-16 09:56:40</subscriptionEnd>
+                <expired>2018-01-15 09:56:40</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-16 09:56:40</usageStart>
+                <usageEnd>2017-12-16 09:56:40</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>unlimited</mainPackageVolume>
+                <currentTraffic>2500 KB</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>unlimited</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <packageType>GENERAL</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810382</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 10:28:14</created>
+                <state>expired</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2353</packageId>
+                <packageName>whatsapp_linked</packageName>
+                <packageNumber>2001</packageNumber>
+                <activated>2017-11-17 10:28:14</activated>
+                <subscriptionStart>2017-11-17 10:28:14</subscriptionStart>
+                <subscriptionEnd>2017-11-18 10:28:14</subscriptionEnd>
+                <expired>2017-12-18 10:28:14</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart/>
+                <usageEnd/>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>disabled</mainPackageVolume>
+                <currentTraffic>0</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>disabled</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <childSimPackageId>
+                    <item>810383</item>
+                    <item>810384</item>
+                </childSimPackageId>
+                <packageType>GROUPED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810383</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 10:28:14</created>
+                <state>expired</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2355</packageId>
+                <packageName>Any_block</packageName>
+                <packageNumber>ap-2353-6002</packageNumber>
+                <activated>2017-11-17 10:28:14</activated>
+                <subscriptionStart>2017-11-17 10:28:14</subscriptionStart>
+                <subscriptionEnd>2017-11-18 10:28:14</subscriptionEnd>
+                <expired>2017-12-18 10:28:14</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 10:28:14</usageStart>
+                <usageEnd>2017-11-18 10:28:14</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>unlimited</mainPackageVolume>
+                <currentTraffic>0</currentTraffic>
+                <totalTraffic>300 KB</totalTraffic>
+                <mainTrafficLeft>unlimited</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <masterSimPackageId>810382</masterSimPackageId>
+                <packageType>LINKED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810384</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 10:28:14</created>
+                <state>expired</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2354</packageId>
+                <packageName>whatsapp_pass</packageName>
+                <packageNumber>ap-2353-6824</packageNumber>
+                <activated>2017-11-17 10:28:14</activated>
+                <subscriptionStart>2017-11-17 10:28:14</subscriptionStart>
+                <subscriptionEnd>2017-11-18 10:28:14</subscriptionEnd>
+                <expired>2017-12-18 10:28:14</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 10:28:14</usageStart>
+                <usageEnd>2017-11-18 10:28:14</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>512000 KB</mainPackageVolume>
+                <currentTraffic>0</currentTraffic>
+                <totalTraffic>3000 KB</totalTraffic>
+                <mainTrafficLeft>512000 KB</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <masterSimPackageId>810382</masterSimPackageId>
+                <packageType>LINKED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810385</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 11:11:09</created>
+                <state>activated</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2322</packageId>
+                <packageName>Libertis_open_500Mo</packageName>
+                <packageNumber>1109</packageNumber>
+                <activated>2017-11-17 11:11:09</activated>
+                <subscriptionStart>2017-11-17 11:11:09</subscriptionStart>
+                <subscriptionEnd>2017-12-01 11:11:09</subscriptionEnd>
+                <expired>2017-11-26 11:11:09</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 11:11:09</usageStart>
+                <usageEnd>2017-12-01 11:11:09</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>disabled</mainPackageVolume>
+                <currentTraffic>0</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>disabled</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <childSimPackageId>
+                    <item>810388</item>
+                    <item>810386</item>
+                    <item>810387</item>
+                </childSimPackageId>
+                <packageType>GROUPED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810386</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 11:11:09</created>
+                <state>activated</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2324</packageId>
+                <packageName>Apres_300Mo</packageName>
+                <packageNumber>ap-2322-6704</packageNumber>
+                <activated>2017-11-17 11:11:09</activated>
+                <subscriptionStart>2017-11-17 11:11:09</subscriptionStart>
+                <subscriptionEnd>2017-12-01 11:11:09</subscriptionEnd>
+                <expired>2017-11-26 11:11:09</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 11:11:09</usageStart>
+                <usageEnd>2017-12-01 11:11:09</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>614400 KB</mainPackageVolume>
+                <currentTraffic>0</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>614400 KB</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <masterSimPackageId>810385</masterSimPackageId>
+                <packageType>LINKED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810387</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 11:11:09</created>
+                <state>activated</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2323</packageId>
+                <packageName>Avant_200Mo</packageName>
+                <packageNumber>ap-2322-4583</packageNumber>
+                <activated>2017-11-17 11:11:09</activated>
+                <subscriptionStart>2017-11-17 11:11:09</subscriptionStart>
+                <subscriptionEnd>2017-12-01 11:11:09</subscriptionEnd>
+                <expired>2017-11-26 11:11:09</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 11:11:09</usageStart>
+                <usageEnd>2017-12-01 11:11:09</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>409600 KB</mainPackageVolume>
+                <currentTraffic>7000 KB</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>402600 KB</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <masterSimPackageId>810385</masterSimPackageId>
+                <packageType>LINKED</packageType>
+                <schedule/>
+            </item>
+            <item>
+                <id>810388</id>
+                <cardId>152746650</cardId>
+                <msisdn>22890270199</msisdn>
+                <created>2017-11-17 11:11:09</created>
+                <state>activated</state>
+                <adminState>UNLOCKED</adminState>
+                <packageId>2325</packageId>
+                <packageName>Block_apps</packageName>
+                <packageNumber>ap-2322-6986</packageNumber>
+                <activated>2017-11-17 11:11:09</activated>
+                <subscriptionStart>2017-11-17 11:11:09</subscriptionStart>
+                <subscriptionEnd>2017-12-01 11:11:09</subscriptionEnd>
+                <expired>2017-11-26 11:11:09</expired>
+                <outstandingAmount>0</outstandingAmount>
+                <usageStart>2017-11-17 11:11:09</usageStart>
+                <usageEnd>2017-12-01 11:11:09</usageEnd>
+                <nextBillDate>-</nextBillDate>
+                <lastPayment>0</lastPayment>
+                <totalPayment>0</totalPayment>
+                <mainPackageVolume>unlimited</mainPackageVolume>
+                <currentTraffic>500 KB</currentTraffic>
+                <totalTraffic>0</totalTraffic>
+                <mainTrafficLeft>unlimited</mainTrafficLeft>
+                <lastSmsThreshold>0</lastSmsThreshold>
+                <renewNumber>0</renewNumber>
+                <masterSimPackageId>810385</masterSimPackageId>
+                <packageType>LINKED</packageType>
+                <schedule/>
+            </item>
+        </SimGprsPackage>
+    </packages>
+    <bonus/>
+</xml>
