@@ -69,11 +69,25 @@ class Admin extends REST_Controller {
                     $modules = $this->profilDAO->listSelectedModules($profil);
                     $menu = array();
                     $sous_menu = array();
-                    $droit = array();
+                    //$droit = array();
+                    $racine = array();
+                    $niveau_2 = array();
+                    $niveau_1 = array();
                     foreach ($modules as $mod){
                         $index = $mod->c_index;
-               
-                        array_push($droit, $index);
+                        $rg = explode("_", $index);
+                        
+                        $key_3 = $rg[2];
+
+                        $key_2 = $rg[1];
+                        $niveau_2["$key_2"] []= $key_3;
+                        $key_1 = $rg[0];
+
+                        $niveau_1["$key_1"] []= $niveau_2["$key2"];
+
+                        $racine[] = $niveau_1;
+                            
+                       
 
                     }
                                        
@@ -103,7 +117,7 @@ class Admin extends REST_Controller {
                         "result"=>1,
                         "token"=>$token,
                         "user"=>$valeur,  
-                        "droit" => $droit,
+                        "droit" => $racine,
                         "must_change_password"=>0,
                         "comment"=>"Authentification avec succès! "), REST_Controller::HTTP_OK);
                     
@@ -358,17 +372,18 @@ class Admin extends REST_Controller {
                         $notif_mdp= random_string('alnum', 10);
                         $user->mdp = $this->userDAO->cryptPass($notif_mdp);
                         $supp = " et re-édition de mot de passe";
-                    }   
+                    }
                     $this->userDAO->editAllUser($user);
                     // On fait la notification mail 
                     $users = $this->userDAO->listUserById($user->id);
                     $user = $users[0];
-                    if($notif_mdp) notify_password($user->adresse,$notif_mdp,$user->adresse);
+                   // if($notif_mdp) notify_password($user->adresse,$notif_mdp,$user->adresse);
 
                     $this->set_response(array("request"=>"user_edit",
                         "result"=>1,
                         "token"=>$token,
                         "user" => $user,
+                        "notif_pass"=> $notif_mdp,
                         "comment"=>"Requete d'edition d'utilisateur $supp executée avec succès!",  
                     ), REST_Controller::HTTP_OK);
                    

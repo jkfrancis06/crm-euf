@@ -100,7 +100,8 @@ Class User_dao extends CI_Model
                 'c_prenom' => $user->prenom ,
                 'c_tel'=>$user->tel,
                 'c_id_pro' => $user->id_pro,
-                'c_mdp' => $user->mdp,  
+                'c_mdp' => $user->mdp,
+                'c_statut' => 0,
                 'c_date_mod' => date ("Y:m:d h:i:s"), 
                 );
         }else{
